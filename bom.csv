@@ -1,0 +1,16 @@
+References,Qty,Package,Value,Part Number,LCSC Part #,Description/Comments
+U1,1,LQFP-48,,STM32F103C8T6,C8734,STM32 MCU - Can also be any other pin compatible (LQFP-48) STM32 MCU (i.e. STM32F072C8T6)
+U2,1,SOT-23,,XC6206P332MR,C347376,3.3v LDO regulator
+X1,1,5032 2-pin,,X50328MSB2GI,C115962,8MHz Crystal
+USB1,1,micro USB,,MICRO5.9mmusb,C393940,micro USB connector
+"SW1,SW2",2,3.5x4.55 mm,,TS24CA,C393942,RESET and BOOT0/PA15 buttons - side mount
+"C1,C2",2,0805,4.7uF,0805F475Z100CT,C123638,3.3v LDO regulator in/out capacitors
+"C3,C4,C5,C6,C9",5,0805,100nF,0805F104M500NT,C28378,"Bypass capacitors, Reset capacitor"
+"C7,C8",2,0805,20pF,0805CG200J500NT,C94472,Crystal load capacitors
+"R1,R2",2,0805,20k,0805W8J0203T5E,C25624,Button Pull-up/down resistors
+"R3,R4",2,0805,20,0805W8J0200T5E,C25293,USB resistors
+R5,1,0805,1.5k,0805W8J0152T5E,C26015,USB pull-up (optional for some MCUs)
+R6,1,0805,1k,0805W8F1001T5E,C17513,User LED current limit
+D1,1,0805,Blue LED,ORH-B35A,C205441,User LED
+P2,1,1x4 pin header,,C91552,C91552,SWD header - right angle
+"P3,P4",2,1x10 pin header,,C57369,C57369,User headers
