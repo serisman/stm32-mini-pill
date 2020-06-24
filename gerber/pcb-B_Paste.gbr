@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre\DAV\Exception</s:exception>
+  <s:message>An exception occurred while executing 'UPDATE `oc_file_locks` SET `lock` = `lock` + 1, `ttl` = ? WHERE `key` = ? AND `lock` &gt;= 0' with params [1591777561, "files\/0f7561b54cb99ee15f4e78d43449f470"]:
+
+SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction</s:message>
+</d:error>
+
